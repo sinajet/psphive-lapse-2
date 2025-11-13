@@ -39,6 +39,10 @@ Through these changes, the original modular `.mjs` structure has been refactored
 - **Embedded** `.elf/.bin` **assets as hex arrays inside JS** — binary resources converted to in-file hex arrays to avoid read/load errors in constrained environments.
 - **Replaced** `XMLHttpRequest()` **with** `fetch()`**/file reads** — modernized file-loading code for better compatibility and promise-based control flow.
 
+### Reference bundle and change-tracking
+
+This repository includes a minimally-modified reference bundle `bundle_reference.js` for diff-based review; it is provided for comparison only and is **not used** by the code.
+
 ## ToDo List
 
 - Find an alternative (semi-modular) way to add firmware support
