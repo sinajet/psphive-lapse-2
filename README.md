@@ -31,6 +31,7 @@ Through these changes, the original modular `.mjs` structure has been refactored
 - **Removed all** `.mjs` **files** — converted the codebase to plain `.js` to improve cross-platform compatibility and simplify loading requirements.
 - **Refactored for more sequential** `C-like` **execution** — code reorganized to follow a linear flow for easier reasoning, deterministic timing, and simpler debugging.
 - **Rewrote** `Number.isInteger()` **implementation** — The original exploit implementation relied on `Number.isInteger()`, which I guess not fully supported in the PS4’s WebKit-based JavaScript environment (situated between `ES5` and `Partial ES6` compliance). To ensure consistent behavior across these runtimes, the function was rewritten using fundamental type and arithmetic checks. This guarantees proper integer validation even in restricted or legacy WebKit engines.
+- **Rewrote** `hexdump()` **implementation** — adjusted string/byte handling to comply with the PS4 WebKit ES5-level JavaScript engine.
 - **Improved GC handling with short delay** — added a small wait (≈50 ms) to certain `gc()` paths to stabilize memory reclamation timing.
 - **Added initialization checks for variable operations** — guard checks ensure variables are initialized before use to prevent undefined-state failures.
 - **Reordered and cleaned global variable initializations** — made global setup deterministic and reduced race conditions at startup.
