@@ -73,7 +73,7 @@ var menuData = {
         "PL-Ver": "v1.0.0 - By RandQalan /Payload By Nazky",
         "PL-Desc": "PSFree/Lapse Fix is a payload that uses a trick to fix the game's running problem. This payload installs a plugin on your console. Make sure to run the plugin on your device using GoldHEN.",
         "Icon": "&#xF0AD;",
-        "FW": ["9.00","8.xx","7.xx"]
+        "FW": ["9.xx","8.xx","7.xx"]
       },
       {
         "PL-Title": "PS4Debug",
@@ -345,3 +345,4 @@ var menuData = {
   }
 
 }
+
