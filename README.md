@@ -1,5 +1,5 @@
 
-# PSPhive-Lapse 2 - PS4 Jailbreak Host (FW 9.00 - 11.00)
+# PSPhive-Lapse 2 - PS4 Jailbreak Host (FW 7.00 to 9.60)
 
 A fast, stable, and beautiful PS4 exploit host that combines the gorgeous **PSPhive!** user interface (originally designed by Leeful) with the highly optimized **PSFree-Lapse** exploit by Feyzee61 repository is a fork of [Feyzee61/psfree_lapse](https://github.com/Feyzee61/psfree_lapse).
 
@@ -16,17 +16,8 @@ https://sinajet.github.io/psphive-lapse-2/index.html
 - Beautiful PSPhive! UI (designed by Leeful)
 - Based on Feyzee61's optimized and stable PSFree-Lapse exploit
 - Extremely fast and reliable
-- Supports firmware 9.00 to 11.00
+- Supports firmware 7.00 to 9.60
 - No DNS blocking or extra files required
-
-### Payloads (Mira + HEN, etc.)
-After successful kernel exploit, you can load:
-- Mira + HEN
-- Mira (Unsigned)
-- HEN
-- VR Enabler
-- Rest Mode Fix
-- and more directly from the PSPhive menu
 
 ### Credits & Special Thanks ❤️
 
