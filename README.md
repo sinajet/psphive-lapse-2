@@ -1,7 +1,7 @@
 
 # PSPhive-Lapse 2 - PS4 Jailbreak Host (FW 9.00 - 11.00)
 
-A fast, stable, and beautiful PS4 exploit host that combines the gorgeous **PSPhive!** user interface (originally designed by Leeful) with the highly optimized **PSFree-Lapse** exploit by Fey his repository is a fork of [Feyzee61/psfree_lapse](https://github.com/Feyzee61/psfree_lapse).
+A fast, stable, and beautiful PS4 exploit host that combines the gorgeous **PSPhive!** user interface (originally designed by Leeful) with the highly optimized **PSFree-Lapse** exploit by Feyzee61 repository is a fork of [Feyzee61/psfree_lapse](https://github.com/Feyzee61/psfree_lapse).
 
 Just open this link in your PS4 browser (make sure to include `/index.html` at the end):
 
